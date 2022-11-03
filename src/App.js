@@ -2,6 +2,7 @@ import './App.css';
 //import Greet from './components/greet';
 //import Message from './components/message';
 import Usee from './useeffect/usee1';
+import Useref from './useeffect/useref';
 
     function App() {
    return (
@@ -18,7 +19,9 @@ import Usee from './useeffect/usee1';
 
 //       <Message /> */}
 
-      <Usee />
+      {/* <Usee /> */}
+
+      <Useref />
 
     </div>
   )
